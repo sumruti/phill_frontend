@@ -18,7 +18,7 @@ import { CartContextProvider } from "../Contexts/Cart";
 import { _COMPONENTS_INFO as componentsInfo } from "../../utils/_globals";
 
 const backend_url1 = "https://magictabbackend.herokuapp.com/";
-const backend_url = "http://localhost:5000/";
+const backend_url = "https://phillapi.herokuapp.com/";
 
 const override = css`
 	display: block;

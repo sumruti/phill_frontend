@@ -17,7 +17,7 @@ import API from "../../utils/api";
 
 const { _STORE_NAME_TAG_IMAGE_ALT, _STORE_NAME_TAG_SHOP_ALL } = _STRINGS;
 const backend_url1 = "https://magictabbackend.herokuapp.com/";
-const backend_url = "http://localhost:5000/";
+const backend_url = "https://phillapi.herokuapp.com/";
 class Home extends PureComponent {
 	state = {
 		expirationInfo: {},

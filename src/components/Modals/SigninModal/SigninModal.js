@@ -11,8 +11,8 @@ import styles from "./SigninModal.module.css";
 //npm module
 import axios from "axios";
 
-const backend_url1 = "https://magictabbackend.herokuapp.com/";
-const backend_url = "http://localhost:5000/";
+const backend_url1 = "https://phillapi.herokuapp.com/";
+const backend_url = "https://phillapi.herokuapp.com/";
 class SigninModal extends PureComponent {
 	state = {
 		step: 1,
