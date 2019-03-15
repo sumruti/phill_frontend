@@ -1,0 +1,30 @@
+.deals_container_wrapper {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	height: 100%;
+	position: relative;
+	bottom: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.deals_container {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) {
+	.deals_container {
+		top: 300px;
+		flex-direction: row;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.deals_container {
+		top: 320px;
+		flex-direction: column;
+	}
+}

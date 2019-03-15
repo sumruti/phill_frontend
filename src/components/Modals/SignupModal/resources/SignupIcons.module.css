@@ -1,0 +1,9 @@
+.container {
+  width: 16px;
+  height: 12px;
+  margin-top: -4px;
+}
+
+.visContainer {
+  margin-bottom: 4px;
+}

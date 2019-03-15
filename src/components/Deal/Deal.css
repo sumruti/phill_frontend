@@ -1,0 +1,219 @@
+.deal_container {
+	border: none;
+}
+
+.deal_store,
+.deal_product,
+.deal_expiration {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.deal_store {
+	color: #d80000;
+	font-weight: 900;
+	font-style: oblique;
+}
+
+.deal_product {
+	color: #363636;
+	font-weight: 500;
+}
+
+.deal_img_price_container {
+	position: relative;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.deal_price_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fa0101;
+	background-color: #ffecc9;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.deal_price {
+	margin: auto;
+	font-size: 24px !important;
+}
+
+.deal_action_btns_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.deal_add_to_cart_btn,
+.deal_remove_from_cart_btn {
+	font-weight: 900;
+	padding: 12px 24px;
+	border-radius: 50px;
+	font-size: larger;
+	max-width: 250px;
+	margin: auto;
+}
+
+.deal_add_to_cart_btn {
+	background-color: #ffc200;
+	color: white;
+}
+
+.deal_remove_from_cart_btn {
+	background-color: #ffecc9;
+	color: red;
+}
+
+.deal_product_details_btn {
+	color: gray;
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.deal_add_to_cart_btn_animated_background_color {
+	-webkit-animation-name: add_to_cart_background_color; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+	animation-name: add_to_cart_background_color;
+	animation-duration: 0.25s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes add_to_cart_background_color {
+	from {
+		background-color: #ffc200;
+	}
+	to {
+		background-color: #ffecc9;
+	}
+}
+
+/* Standard syntax */
+@keyframes add_to_cart_background_color {
+	from {
+		background-color: #ffc200;
+	}
+	to {
+		background-color: #ffecc9;
+	}
+}
+
+.deal_add_to_cart_btn_animated_color {
+	-webkit-animation-name: add_to_cart_color; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+	animation-name: add_to_cart_color;
+	animation-duration: 0.25s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes add_to_cart_color {
+	from {
+		color: white;
+	}
+	to {
+		color: red;
+	}
+}
+
+/* Standard syntax */
+@keyframes add_to_cart_color {
+	from {
+		color: white;
+	}
+	to {
+		color: red;
+	}
+}
+
+.deal_remove_from_cart_btn_animated_background_color {
+	-webkit-animation-name: remove_from_cart_background_color; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+	animation-name: remove_from_cart_background_color;
+	animation-duration: 0.25s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes remove_from_cart_background_color {
+	from {
+		background-color: #ffecc9;
+	}
+	to {
+		background-color: #ffc200;
+	}
+}
+
+/* Standard syntax */
+@keyframes remove_from_cart_background_color {
+	from {
+		background-color: #ffecc9;
+	}
+	to {
+		background-color: #ffc200;
+	}
+}
+
+.deal_remove_from_cart_btn_animated_color {
+	-webkit-animation-name: remove_from_cart_color; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+	animation-name: remove_from_cart_color;
+	animation-duration: 0.25s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes remove_from_cart_color {
+	from {
+		color: white;
+	}
+	to {
+		color: red;
+	}
+}
+
+/* Standard syntax */
+@keyframes remove_from_cart_color {
+	from {
+		color: white;
+	}
+	to {
+		color: red;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.deal_img_price_container,
+	.deal_product_img {
+		width: 500px;
+		height: 300px;
+	}
+
+	.deal_price_container {
+		width: 212px;
+		height: 212px;
+	}
+	.deal_price {
+		font-size: xx-large;
+		font-size: -webkit-xxx-large;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.deal_img_price_container,
+	.deal_product_img {
+		max-width: 500px;
+		max-height: 300px;
+	}
+
+	.deal_price_container {
+		width: 100px;
+		height: 100px;
+	}
+	.deal_price {
+		font-size: xx-large;
+	}
+}

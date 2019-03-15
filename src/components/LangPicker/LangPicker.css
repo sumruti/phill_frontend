@@ -1,0 +1,14 @@
+.lang_picker_container{
+    margin-right: 20px;
+    border-right: 2px solid white;
+}
+
+.lang_picker{
+    background-color: #2993E2;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    padding: 5px;
+    -webkit-appearance: none;
+}

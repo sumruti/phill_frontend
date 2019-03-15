@@ -1,0 +1,164 @@
+.fixed_header_search {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+
+.between_header_search_space_holder {
+	width: 100%;
+	height: 90px;
+	background-color: white;
+}
+
+.store_name_tags_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	overflow-x: scroll;
+}
+
+.store_name_tag_img_container {
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	border: 0.5px solid white;
+	box-shadow: 1px 1px 5px;
+	margin: 5px;
+}
+
+.store_name_shop_all_container {
+	text-align: center;
+	display: flex;
+	font-weight: 900;
+}
+
+.store_name_shop_all {
+	margin: auto;
+}
+
+.store_name_tag_img_container_selected {
+	border: 2px solid #ffc200;
+	box-shadow: 1px 2px 2px;
+}
+
+.store_name_tag_img {
+	max-height: 50px;
+}
+
+.main_body {
+	margin-top: 145px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.mgb-20 {
+	margin-bottom: 20px;
+}
+
+.most_recent {
+	background: #f1f8fd;
+	width: 80%;
+	border: 1px solid #009fe0;
+	color: #379fe0;
+	border-radius: 20px;
+}
+
+.about_me {
+	background: #f1f8fd;
+	margin-top: 10px;
+	width: 80%;
+	border: 1px solid #009fe0;
+	color: #379fe0;
+	border-radius: 20px;
+}
+
+.btn_s:focus {
+	outline: none;
+}
+.btn_s:hover {
+	background: #379fe0;
+	color: #f1f8fd;
+}
+
+.mgt-10 {
+	margin-top: 10px;
+}
+.percent45 {
+	width: 45%;
+}
+
+.percent16 {
+	width: 16%;
+}
+
+.may9 {
+	width: 14%;
+	background: #f8edf1;
+	color: #9e0039;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.total {
+	background: #fef4ef;
+	margin-left: 1%;
+	width: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.items {
+	background: #edf2f6;
+	margin-left: 1%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 14%;
+}
+
+.shopper {
+	width: 44%;
+	background: #f8f8f8;
+	margin-left: 1%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.back_f8 {
+	background: #f8f8f8;
+}
+
+.pd5 {
+	padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+	.store_name_tags_container {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.store_name_tag_img_container {
+		width: 70px;
+		height: 70px;
+		background-size: 50px;
+	}
+
+	.store_name_shop_all_container {
+		font-size: small;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.store_name_tags_container {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.store_name_tag_img_container {
+		min-width: 50px;
+		height: 50px;
+		background-size: 40px;
+	}
+
+	.store_name_shop_all_container {
+		font-size: x-small;
+	}
+}
